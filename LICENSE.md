@@ -1,8 +1,8 @@
 # The Prosperity Public License 3.0.0
 
-Contributor: $name
+Contributor: HumbleCreators
 
-Source Code: $address
+Source Code: Smart-Scholar
 
 ## Purpose
 
