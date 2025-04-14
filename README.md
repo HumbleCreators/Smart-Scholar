@@ -57,7 +57,7 @@ Smart Scholar makes advanced academic research accessible to all learners, regar
 
 To get started with Smart Scholar, follow these steps:
 
-1. **Sign up for an account** – Visit our [website](#) to create your account.
+1. **Sign up for an account** – Visit our [website](https://v0-smart-scholar-ai-platform.vercel.app/) to create your account.
 2. **Set your learning goals** – Select the subjects or describe your learning objectives.
 3. **Explore personalized learning paths** – The AI will generate a tailored pathway based on your interests.
 4. **Engage with the material** – Read, practice, and interact with the AI for personalized guidance.
