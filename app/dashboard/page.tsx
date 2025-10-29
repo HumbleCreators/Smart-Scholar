@@ -16,6 +16,7 @@ import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle }
 import { Input } from "@/components/ui/input"
 import { Progress } from "@/components/ui/progress"
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
+import { AIAssistant } from "@/components/ai-assistant/AIAssistant"
 
 export default function DashboardPage() {
   return (
@@ -328,46 +329,7 @@ export default function DashboardPage() {
               <Button className="w-full">Continue Learning</Button>
             </CardFooter>
           </Card>
-          <Card>
-            <CardHeader>
-              <CardTitle>AI Learning Assistant</CardTitle>
-              <CardDescription>Ask any question about your studies</CardDescription>
-            </CardHeader>
-            <CardContent>
-              <div className="space-y-4">
-                <div className="bg-muted p-3 rounded-lg">
-                  <p className="text-sm">How does backpropagation work in neural networks?</p>
-                </div>
-                <div className="bg-primary/10 p-3 rounded-lg">
-                  <p className="text-sm">
-                    Backpropagation is an algorithm used to train neural networks by calculating gradients of the loss
-                    function with respect to the weights. It works by...
-                  </p>
-                </div>
-              </div>
-              <div className="flex items-center gap-2 mt-4">
-                <Input placeholder="Ask a question..." className="flex-1" />
-                <Button size="icon">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="24"
-                    height="24"
-                    viewBox="0 0 24 24"
-                    fill="none"
-                    stroke="currentColor"
-                    strokeWidth="2"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    className="h-4 w-4"
-                  >
-                    <path d="m22 2-7 20-4-9-9-4Z" />
-                    <path d="M22 2 11 13" />
-                  </svg>
-                  <span className="sr-only">Send</span>
-                </Button>
-              </div>
-            </CardContent>
-          </Card>
+          <AIAssistant />
           <Card>
             <CardHeader>
               <CardTitle>Upcoming Deadlines</CardTitle>

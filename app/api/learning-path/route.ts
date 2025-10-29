@@ -17,7 +17,7 @@ export async function POST(req: Request) {
       - Provide a mix of theory and practical exercises
       - Adapt to the user's prior knowledge
       - Build toward their specific learning goals
-      - Include relevant academic resources
+      - **Include relevant academic resources from arXiv, Google Scholar, and other open-access databases.**
       
       Format the response as a structured JSON object with:
       - path_name: String

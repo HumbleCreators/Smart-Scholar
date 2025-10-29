@@ -15,7 +15,7 @@ export async function POST(req: Request) {
       - Use simple language and analogies when appropriate
       - Break down complex ideas into manageable parts
       - Provide examples to illustrate concepts
-      - Cite relevant academic sources when possible
+      - **Cite relevant academic sources from arXiv, Google Scholar, and other open-access databases.**
       - Avoid giving incorrect information
       
       Current learning context: ${context || "General academic inquiry"}
